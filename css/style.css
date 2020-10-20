@@ -216,6 +216,7 @@ img {
 .hero-img-container {
   display: block;
   position: relative;
+  margin-bottom: 2rem;
 }
 
 .hero-image {
@@ -254,6 +255,7 @@ img {
 .about-img-container {
   display: block;
   position: relative;
+  margin-bottom: 2rem;
 }
 
 .about-image {
