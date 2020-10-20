@@ -221,7 +221,7 @@ img {
 
 .hero-image {
   max-width: 40rem;
-  max-height: 50rem;
+  max-height: 45rem;
   object-fit: cover;
   border-radius: var(--radius);
   position: relative;
@@ -259,8 +259,8 @@ img {
 }
 
 .about-image {
-  max-width: 45rem;
-  max-height: 50rem;
+  max-width: 40rem;
+  max-height: 45rem;
   object-fit: cover;
   border-radius: var(--radius);
   position: relative;
