@@ -191,7 +191,7 @@ img {
 /* Hero */
 .hero {
   min-height: 90vh;
-  clip-path: var(--poligon);
+  background: var(--clr-grey-10);
 }
 
 .hero-grid {
@@ -213,7 +213,6 @@ img {
   color: var(--clr-grey-5);
 }
 
-/* Hero and about image styles */
 .hero-img-container {
   display: block;
   position: relative;
