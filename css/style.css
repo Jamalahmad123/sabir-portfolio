@@ -437,3 +437,23 @@ img {
   align-items: center;
   flex-direction: column;
 }
+
+/* Footer */
+.footer {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.footer-flex {
+  display: grid;
+  place-items: center;
+}
+
+.footer-flex > div a {
+  color: var(--clr-primary-5);
+  margin-right: 2.5rem;
+}
+
+.footer-flex .footer-content {
+  margin-top: 2rem;
+  font-size: 2rem;
+}
