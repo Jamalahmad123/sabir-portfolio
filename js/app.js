@@ -1,5 +1,14 @@
-
-
+// Navbar UI
+const navbar = document.querySelector('.navbar');
+// Fixed navbar on scroll
+window.addEventListener('scroll', function() {
+  if(window.pageYOffset > 80) {
+    navbar.classList.add('fixed-navbar');
+  } else {
+    navbar.classList.remove('fixed-navbar');
+  }
+});
+// End fixed navbar
 
 // Start Work Section PopUp Image
 
