@@ -219,7 +219,6 @@ img {
 /* Hero */
 .hero {
   min-height: 90vh;
-  background: var(--clr-grey-10);
 }
 
 .hero-grid {
@@ -576,8 +575,12 @@ img {
     padding: 0 3rem;
   }
 
+  .hero {
+    min-height: (100vh - 10rem);
+  }
+
   .desktop-height {
-    min-height: calc(90vh - 15rem);
+    min-height: calc(100vh - 15rem);
   }
 }
 
