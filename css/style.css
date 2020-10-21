@@ -642,7 +642,7 @@ img {
   }
 
   .modal p {
-    bottom: 15%;
+    bottom: 0;
     left: 50%;
   }
 }
