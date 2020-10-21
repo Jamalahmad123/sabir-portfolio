@@ -462,11 +462,41 @@ img {
 /* Contact Section */
 .contact {
   background: linear-gradient(to right bottom, var(--clr-primary-8), var(--clr-primary-9));
-  min-height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding: 3rem 0 2rem 0;
+}
+
+.contact-grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2rem;
+}
+
+.contact-grid .contact-grid-item {
+  background: var(--clr-grey-10);
+  margin: 2rem;
+  padding: 4rem;
+  align-self: center;
+  text-align: center;
+  border-radius: var(--radius);
+}
+
+.contact-grid-item h3 {
+  font-size: 2rem;
+}
+
+.contact-grid-item a {
+  font-size: 1.6rem;
+  color: var(--clr-grey-1);
+}
+
+.contact-grid-item > * {
+  padding: 1rem 0;
 }
 
 /* Footer */
