@@ -534,7 +534,7 @@ img {
  
 }
 
-/* Media Queries for max-width 910px */
+/* Media Queries for max-width 867px */
 @media screen and (max-width: 867px) {
   /* Navbar */
   .nav-links {
@@ -631,6 +631,9 @@ img {
 @media screen and (max-width: 768px) {
 
   /* About */
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
   .about-content {
     padding-top: 3rem;
   }
@@ -656,5 +659,12 @@ img {
     top: 0;
     border-left: 0.75rem solid var(--clr-primary-5);
     border-radius: var(--radius);
+  }
+}
+
+/* Media Query for max-wdth: 450px */
+@media screen and (max-width: 450px) {
+  .work-grid {
+    grid-template-columns: 1fr;
   }
 }
