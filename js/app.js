@@ -1,5 +1,8 @@
 // Navbar UI
 const navbar = document.querySelector('.navbar');
+const sidebar = document.querySelector('.sidebar');
+const hamburger = document.querySelector('.hamburger');
+const closeNav = document.querySelector('.close-btn');
 // Fixed navbar on scroll
 window.addEventListener('scroll', function() {
   if(window.pageYOffset > 80) {
@@ -10,8 +13,18 @@ window.addEventListener('scroll', function() {
 });
 // End fixed navbar
 
-// Start Work Section PopUp Image
+//open sidebar
+hamburger.addEventListener('click', function() {
+  sidebar.classList.add('show-sidebar');
+});
 
+// Close sidebar
+closeNav.addEventListener('click', function() {
+  sidebar.classList.remove('show-sidebar');
+});
+
+
+// Start Work Section PopUp Image
 // Get Element
 const modal = document.querySelector('.modal');
 const imagePre = document.querySelectorAll('.work-grid-item img');
@@ -19,7 +32,6 @@ const fullImg = document.querySelector('.full-img');
 const imgContent = document.querySelector('.modal-content');
 
 // Listen for click
-
 // Open Modal
 imagePre.forEach((item) => {
   item.addEventListener('click', function() {
