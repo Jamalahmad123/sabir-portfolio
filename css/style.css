@@ -575,7 +575,7 @@ img {
   }
 
   .desktop-height {
-    min-height: calc(100vh - 10rem);
+    min-height: calc(100vh - 15rem);
   }
 }
 
