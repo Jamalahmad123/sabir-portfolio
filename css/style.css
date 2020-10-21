@@ -576,7 +576,10 @@ img {
   }
 
   .hero {
-    min-height: (100vh - 10rem);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: (100vh - 5rem);
   }
 
   .desktop-height {
