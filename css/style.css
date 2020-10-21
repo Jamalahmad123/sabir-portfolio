@@ -162,7 +162,7 @@ img {
 .navbar {
   background: var(--clr-grey-10);
   min-height: 10vh;
-  padding: 1rem 0;
+  padding: 1.5rem 0;
 }
 
 .nav-flex {
@@ -246,11 +246,12 @@ img {
 .hero-img-container {
   display: block;
   position: relative;
+  margin-top: 2rem;
 }
 
 .hero-image {
-  max-width: 40rem;
-  max-height: 45rem;
+  max-width: 35rem;
+  max-height: 40rem;
   object-fit: cover;
   border-radius: var(--radius);
   position: relative;
@@ -422,10 +423,10 @@ img {
 
 .full-img {
   position: absolute;
-  width: 45%;
+  width: 40%;
   height: auto;
   object-fit: cover;
-  top: 55%;
+  top: 57%;
   left: 50%;
   transform: translate(-50%, -50%) scale(0.5);
   overflow: hidden;
