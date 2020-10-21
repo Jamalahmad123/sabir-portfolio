@@ -664,7 +664,7 @@ img {
 
 /* Media Query for max-wdth: 450px */
 @media screen and (max-width: 450px) {
-  .work-grid {
+  .work .work-grid {
     grid-template-columns: 1fr;
   }
 }
