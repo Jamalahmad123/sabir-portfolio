@@ -106,7 +106,7 @@ img {
   max-width: var(--max-width);
   width: 100%;
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 0 4rem;
 }
 
 .btn {
@@ -161,7 +161,7 @@ img {
 /* Navbar */
 .navbar {
   background: var(--clr-grey-10);
-  min-height: 5vh;
+  min-height: 10vh;
   padding: 1rem 0;
 }
 
@@ -246,7 +246,6 @@ img {
 .hero-img-container {
   display: block;
   position: relative;
-  margin-bottom: 2rem;
 }
 
 .hero-image {
@@ -507,6 +506,9 @@ img {
 .footer-flex {
   display: grid;
   place-items: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .footer-flex > div a {
@@ -566,9 +568,14 @@ img {
 }
 
 /* Media Query for desktop */
-@media screen and (max-width: 1920px) {
+@media screen and (min-width: 1400px) {
   .container {
     max-width: 1920px;
+    padding: 0 6rem;
+  }
+
+  .desktop-height {
+    min-height: 80vh;
   }
 }
 
