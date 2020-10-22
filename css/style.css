@@ -33,7 +33,7 @@
   --radius: 0.5rem;
   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-  --max-width: 130rem;
+  --max-width: 120rem;
   --poligon: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
 }
 
@@ -569,17 +569,16 @@ img {
 }
 
 /* Media Query for desktop */
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1201px) {
   .container {
-    min-width: 1400px;
+    min-width: 1201px;
     padding: 0 3rem;
   }
 
   .hero {
     display: flex;
     align-items: center;
-    flex-direction: column;
-    min-height: (100vh - 5rem);
+    justify-content: center;
   }
 
   .desktop-height {
