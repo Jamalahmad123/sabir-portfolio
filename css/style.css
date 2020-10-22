@@ -558,6 +558,7 @@ img {
       width: 26rem;
       border: 1.5rem solid rgba(0, 0, 0, 0.07);
       border-radius: 50%;
+      margin-bottom: 5rem;
     }
   
     .hero-img-container::before {
@@ -575,7 +576,7 @@ img {
 
 /* Media Query for desktop */
 @media screen and (min-width: 992px) {
-  
+
   .desktop-height {
     min-height: 0vh;
   }
