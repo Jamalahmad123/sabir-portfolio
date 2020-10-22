@@ -271,7 +271,7 @@ img {
 /* About Section */
 .about {
   background: url('../images/about-bg-1.svg') no-repeat center center / cover;
-  min-height: 100vh;
+  /* min-height: 100vh; */
 }
 .about-grid {
   display: grid;
