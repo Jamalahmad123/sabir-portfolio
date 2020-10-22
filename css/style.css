@@ -575,6 +575,12 @@ img {
 /* Media Query for desktop */
 @media screen and (min-width: 992px) {
 
+  .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
   .desktop-height {
     min-height: 0vh;
   }
