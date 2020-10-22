@@ -1,23 +1,16 @@
-// Navbar & to top UI
+// Navbar UI
 const navbar = document.querySelector('.navbar');
 const sidebar = document.querySelector('.sidebar');
 const hamburger = document.querySelector('.hamburger');
 const closeNav = document.querySelector('.close-btn');
-const topLinks = document.querySelector('.to-top');
-// Fixed navbar to Top arrow and  on scroll
+const sidebarLinks = document.querySelector('.sidebar-links');
+// Fixed navbar
 window.addEventListener('scroll', function() {
   // Navbar
   if(window.pageYOffset > 80) {
     navbar.classList.add('fixed-navbar');
   } else {
     navbar.classList.remove('fixed-navbar');
-  }
-
-  // to Top arrow
-  if(window.pageYOffset > 500) {
-    topLinks.classList.add('show-top-arrow');
-  } else {
-    topLinks.classList.remove('show-top-arrow');
   }
 });
 // End fixed navbar
@@ -31,6 +24,30 @@ hamburger.addEventListener('click', function() {
 closeNav.addEventListener('click', function() {
   sidebar.classList.remove('show-sidebar');
 });
+
+// Close on clicking an anchor element
+sidebarLinks.addEventListener('click', function(event) {
+  // if(event.target)
+  if(event.target.classList.contains('scroll-links')) {
+    sidebar.classList.remove('show-sidebar');
+  }
+});
+
+// Scrolling functionality
+const scrollLinks = document.querySelectorAll('.scroll-links');
+
+// Loop over each of it
+scrollLinks.forEach((linsk) => {
+  linsk.addEventListener('click', function(event) {
+    // Scroll each link
+    const id = event.currentTarget.getAttribute('href').slice(1);
+    const element = document.getElementById(id);
+    const position = element.offsetTop;
+    console.log(position);
+    // Prevent Default
+    event.preventDefault();
+  })
+})
 
 
 // Start Work Section PopUp Image
