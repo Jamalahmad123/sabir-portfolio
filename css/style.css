@@ -581,9 +581,9 @@ img {
     justify-content: center;
   }
 
-  /* .desktop-height {
-    min-height: calc(100vh - 15rem);
-  } */
+  .desktop-height {
+    min-height: 0vh;
+  }
 }
 
 /* Media Queries for max-width 867px */
