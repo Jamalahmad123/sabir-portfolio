@@ -571,7 +571,7 @@ img {
 /* Media Query for desktop */
 @media screen and (min-width: 1201px) {
   .container {
-    min-width: 1201px;
+    max-width: 1201px;
     padding: 0 3rem;
   }
 
