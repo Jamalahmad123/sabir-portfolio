@@ -160,7 +160,9 @@ img {
 
 /* Navbar */
 .navbar {
-  background: var(--clr-grey-10);
+  display: flex;
+  justify-content: center;
+  align-items: center;
   min-height: 10vh;
   padding: 1.5rem 0;
 }
@@ -570,10 +572,6 @@ img {
 
 /* Media Query for desktop */
 @media screen and (min-width: 992px) {
-  /* .container {
-    max-width: 1201px;
-    padding: 0 3rem;
-  } */
 
   .hero {
     display: flex;
