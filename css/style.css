@@ -33,7 +33,7 @@
   --radius: 0.5rem;
   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-  --max-width: 120rem;
+  --max-width: 130rem;
   --poligon: polygon(0 0, 100% 0, 100% 80vh, 0 100%);
 }
 
