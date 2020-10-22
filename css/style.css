@@ -136,8 +136,14 @@ img {
   margin-right: auto;
 }
 
-.item-center {
+.text-center {
   text-align: center;
+}
+
+.item-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* backgrounds */
@@ -160,9 +166,6 @@ img {
 
 /* Navbar */
 .navbar {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   min-height: 10vh;
   padding: 1.5rem 0;
 }
@@ -322,9 +325,9 @@ img {
 }
 
 /* Services section */
-.services {
+/* .services {
   min-height: 90vh;
-}
+} */
 
 .services-grid {
   display: grid;
