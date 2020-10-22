@@ -320,9 +320,9 @@ img {
 }
 
 /* Services section */
-.services {
+/* .services {
   min-height: 90vh;
-}
+} */
 
 .services-grid {
   display: grid;
@@ -373,7 +373,7 @@ img {
 
 /* Latest Work */
 .work {
-  min-height: 150vh;
+  min-height: 100vh;
 }
 
 .work-content {
@@ -581,9 +581,9 @@ img {
     justify-content: center;
   }
 
-  .desktop-height {
+  /* .desktop-height {
     min-height: calc(100vh - 15rem);
-  }
+  } */
 }
 
 /* Media Queries for max-width 867px */
