@@ -19,11 +19,11 @@
         <i class="fas fa-bars"></i>
       </button>
       <ul class="nav-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Work</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#home" class="scroll-links">Home</a></li>
+        <li><a href="#about" class="scroll-links">About</a></li>
+        <li><a href="#services" class="scroll-links">Services</a></li>
+        <li><a href="#work" class="scroll-links">Work</a></li>
+        <li><a href="#contact" class="scroll-links">Contact</a></li>
       </ul>
       <!-- saidebar -->
       <aside class="sidebar">
@@ -33,11 +33,11 @@
           </button>
         </div>
         <ul class="sidebar-links text-center">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Work</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#home" class="scroll-links">Home</a></li>
+          <li><a href="#about" class="scroll-links">About</a></li>
+          <li><a href="#services" class="scroll-links">Services</a></li>
+          <li><a href="#work" class="scroll-links">Work</a></li>
+          <li><a href="#contact" class="scroll-links">Contact</a></li>
         </ul>
         <ul class="social-links">
           <li><a href="https://www.facebook.com/muhammadsabir.shah.9" target="_blank"><i class="fab fa-facebook fa-2x"></i></a></li>
@@ -51,14 +51,14 @@
   </nav>
 
   <!-- Hero Section -->
-  <header class="hero bg-light-grey">
+  <header id="home" class="hero bg-light-grey">
     <div class="container">
       <div class="hero-grid">
         <div class="hero-content">
           <div class="underline"></div>
           <h1>I'm Sabir</h1>
           <h4>Freelance Graphic, UI/UX Designer & Photoshop Expert</h4>
-          <a href="#contact" class="btn btn-hero">Hire Me</a>
+          <a href="#contact" class="scroll-links btn btn-hero">Hire Me</a>
         </div>
         <div class="hero-img-container">
           <img src="./images/Portrait-02.jpg" alt="hero-image" class="hero-image">
@@ -68,7 +68,7 @@
   </header>
 
   <!-- About Section -->
-  <section class="about py-2 desktop-height item-center">
+  <section id="about" class="about py-2 desktop-height item-center">
     <div class="container">
       <div class="about-grid">
         <div class="about-img-container">
@@ -86,7 +86,7 @@
   </section>
 
   <!-- Services Section -->
-  <section class="services bg-light-grey py-1">
+  <section id="services" class="services bg-light-grey py-1">
     <div class="container">
       <div class="services-content text-center">
         <h2>Services</h2>
@@ -116,7 +116,7 @@
   </section>
 
   <!-- Work Section -->
-  <section class="work py-1">
+  <section id="work" class="work py-1">
     <div class="container">
       <div class="work-content text-center">
         <h2>Latest Work</h2>
@@ -183,7 +183,7 @@
         <a href="https://twitter.com/sabir1shah" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
         <a href="https://www.linkedin.com/in/sabir-shah-40329b143/" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
       </div>
-      <p class="footer-content">&copy; 2020 Sabir. All Rights Reserved.</p>
+      <p class="footer-content">&copy; <span id="date"></span> Sabir. All Rights Reserved.</p>
     </div>
   </footer>
 

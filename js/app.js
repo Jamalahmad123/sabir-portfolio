@@ -1,14 +1,23 @@
-// Navbar UI
+// Navbar & to top UI
 const navbar = document.querySelector('.navbar');
 const sidebar = document.querySelector('.sidebar');
 const hamburger = document.querySelector('.hamburger');
 const closeNav = document.querySelector('.close-btn');
-// Fixed navbar on scroll
+const topLinks = document.querySelector('.to-top');
+// Fixed navbar to Top arrow and  on scroll
 window.addEventListener('scroll', function() {
+  // Navbar
   if(window.pageYOffset > 80) {
     navbar.classList.add('fixed-navbar');
   } else {
     navbar.classList.remove('fixed-navbar');
+  }
+
+  // to Top arrow
+  if(window.pageYOffset > 500) {
+    topLinks.classList.add('show-top-arrow');
+  } else {
+    topLinks.classList.remove('show-top-arrow');
   }
 });
 // End fixed navbar
@@ -54,3 +63,8 @@ modal.addEventListener('click', function(e) {
 })
 
 // End Work Section PopUp Image
+
+// Getting date on each new year
+const date = document.getElementById('date');
+date.innerHTML = new Date().getFullYear();
+// End date

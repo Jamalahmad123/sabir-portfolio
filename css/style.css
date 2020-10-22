@@ -46,6 +46,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -106,7 +107,7 @@ img {
   max-width: var(--max-width);
   width: 100%;
   margin: 0 auto;
-  padding: 0 4rem;
+  padding: 0 2rem;
 }
 
 .btn {
@@ -525,6 +526,7 @@ img {
   margin-top: 2rem;
   font-size: 2rem;
 }
+
 
 /* Media Queries for max-width 1090px */
 @media screen and (max-width: 1090px) {
