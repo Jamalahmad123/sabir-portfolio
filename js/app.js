@@ -42,8 +42,6 @@ scrollLinks.forEach((linsk) => {
   linsk.addEventListener('click', function(event) {
     // calculate the nav height
     const navbarHeight = navbar.getBoundingClientRect().height;
-    const navLinksHeight = navbar.getBoundingClientRect().height;
-    const fixedNav = navbar.classList.contains('fixed-navbar');
     // Scroll each link
     const id = event.currentTarget.getAttribute('href').slice(1);
     const element = document.getElementById(id);
